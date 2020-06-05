@@ -1,0 +1,104 @@
+
+/* jumbotron */
+.jumbotron{
+    background: url('https://freenaturestock.s3.amazonaws.com/1487.jpg');
+    background-size: 100% 100%;
+    height: 80vh;
+}
+.logo{
+    margin-left: 2rem;
+    height: 60px;
+    width: 60px;
+}
+
+.featured{
+    padding-top: 4rem;
+    color: antiquewhite;
+}
+
+.featured .btn-default{
+    font-weight: bold;
+    margin-right: 1rem;
+    margin-top: 1.2rem;
+    border-radius: 10px;
+    background-color: rgba(226, 250, 7, 0.4);
+}
+.featured .btn-default:hover{
+    background-color: rgba(226, 250, 7, 1);
+}
+
+/* trial */
+.trial{
+    text-align: center;
+}
+.trial h2{
+    font-weight: bold;
+}
+.trial img{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    width: 400px;
+    height:150px;
+}
+
+/* footer */
+.footer{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+/* media queries */
+
+@media (min-width:480px) and (max-width:768px){
+    .logo{
+        margin-left: 2rem;
+        height: 40px;
+        width: 40px;
+    }
+    .featured{
+        
+        text-align: center;
+        padding-top: 2rem;
+        color: antiquewhite;
+    }
+    .featured p{
+        font-size: 1.6rem;
+    }
+    .featured .btn-default{
+        width: 80%;
+        margin-top: 2rem;
+    }
+    .trial img{
+        margin-top: 2rem;
+        margin-right: 2rem;
+        width: 300px;
+        height:100px;
+    }
+}
+
+@media (max-width:480px){
+    .logo{
+        margin-left: 1rem;
+        height: 30px;
+        width: 30px;
+    }
+    .featured{
+        
+        text-align: center;
+        padding-top: 1.5rem;
+        color: antiquewhite;
+    }
+    .featured p{
+        font-size: 1.4rem;
+    }
+    .featured .btn-default{
+        width: 80%;
+        margin-top: 2rem;
+    }
+    .trial img{
+        margin-top: 2rem;
+        margin-right: 2rem;
+        width: 250px;
+        height:100px;
+    }
+}
